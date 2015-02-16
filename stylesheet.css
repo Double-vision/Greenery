@@ -1,0 +1,136 @@
+body
+{
+    background-image:url('patio.png');
+    min-height: 100%;
+    min-width: 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#title
+{
+    font-family: 'Pacifico', sans-serif;
+    font-size:30px;
+    padding: 0px 25px;
+    position: relative;
+}
+#title a:link,
+#title a:visited,
+#title a:hover
+{
+ color: #FFFFFF;
+ text-decoration: none;
+}
+#navBar
+{
+    border:1px solid #47B224;
+    border-style:solid;
+    border-top-width:10px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background-color: #47B224;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:30px;
+    font-color: #FFFFFF;
+    width: auto%;
+    /*float: right;*/
+    margin: 0 0 1em 0;
+    padding: 7px;
+    position: relative;
+}
+#navBar:after
+{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#navBar ul
+{
+	list-style: none;
+	width: 40%;
+	margin: 0 34%;
+	padding: 0 20px;
+	position: absolute;
+    bottom: 0;
+}
+#navBar li
+{
+	float: left;
+}
+#navBar li a
+{
+	display: block;
+	padding: 8px 25px;
+	text-decoration: none;
+	color: #069;
+	border-right: 1px solid #fff;
+}
+#navBar li:first-child a
+{
+	border-left: 1px solid #fff;
+}
+#navBar li a:hover
+{
+	color: #47B224;
+	background-color: #fff;
+}
+#navBar a:link,
+#navBar a:visited,
+#navBar a:hover
+{
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+li#sub1 ul{
+    display: none;
+}
+li#sub:hover ul{
+    display: block;
+}
+
+#main
+{
+    margin-left:25%;
+    margin-right:25%;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    width: 50%;
+}
+#main h1{
+    text-align: center;
+}
+.article{
+    background-color: #47B224;
+    background-color:rgba(71,178,36,0.6);
+    border: 2px;
+    margin: 2% 2%;
+    padding: 2%;
+    border:solid;
+}
+
+#vegetablefilter select
+{
+	margin: 2% 2%;
+	text-decoration: none;
+}
+
+#plantTable{
+    background-color: #47B224;
+    background-color:rgba(71,178,36,0.6);
+    width:96%;
+    border: 2px;
+    border-color:#fff;
+    margin: 2% 2%;
+    padding: 2%;
+    border:solid;
+}
+.plant
+{
+    border-bottom:3px;
+    border-color:#fff;
+}
+.plant tr
+{
+    width:25%;
+}
